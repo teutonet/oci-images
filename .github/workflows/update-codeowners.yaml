@@ -1,0 +1,35 @@
+name: Update CODEOWNERS
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generateCodeowners:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate CODEOWNERS
+        run: ./.github/scripts/sync-codeowners.sh > .github/CODEOWNERS
+
+      - name: Create PR
+        id: create-pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            .github/CODEOWNERS
+          commit-message: "ci: [bot] Update 'CODEOWNERS'"
+          branch: ci/update-codeowners
+          title: "ci: Update CODEOWNERS"
+      - name: Set PR to auto-merge
+        if: ${{ steps.create-pr.outputs.pull-request-number }}
+        run: gh pr merge --auto --squash "$PR_NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.ACTIONS_BOT_TOKEN }}
+          PR_NUMBER: ${{ steps.create-pr.outputs.pull-request-number }}
+          merge-method: squash

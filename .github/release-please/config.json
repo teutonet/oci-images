@@ -1,0 +1,31 @@
+{
+  "release-type": "simple",
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "chore",
+      "section": "Miscellaneous Chores"
+    }
+  ],
+  "include-component-in-tag": true,
+  "pull-request-title-pattern": "chore${scope}: [bot] release${component}:${version}",
+  "separate-pull-requests": true,
+  "packages": {
+    "images/ckan": {
+      "package-name": "ckan"
+    },
+    "images/ckan-dcatapde": {
+      "package-name": "ckan-dcatapde"
+    },
+    "images/solr-ckan": {
+      "package-name": "solr-ckan"
+    }
+  }
+}
