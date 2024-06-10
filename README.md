@@ -1,6 +1,6 @@
 # teuto.net OCI Images
 
-![Build](https://github.com/teutonet/oci-images/actions/workflows/build.yml/badge.svg)
+![Build](https://github.com/teutonet/oci-images/actions/workflows/release-image.yaml/badge.svg)
 
 ## Overview
 
@@ -8,13 +8,13 @@ teuto.net OCI images.
 
 ## Description
 
-You can find published versions of these images on [Docker Hub](https://hub.docker.com/r/teutonet):
+You can find published versions of these images on [GitHub Hub](https://github.com/orgs/teutonet/packages?repo_name=oci-images):
 
-| Image                                                                     | Stars                                                                       | Size                                                                                                  | Pulls                                                                       |
-|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [teutonet/ckan](https://hub.docker.com/r/teutonet/ckan)                   | ![Docker Stars](https://img.shields.io/docker/stars/teutonet/ckan)          | ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/teutonet/ckan)          | ![Docker Pulls](https://img.shields.io/docker/pulls/teutonet/ckan)          |
-| [teutonet/ckan-dcatapde](https://hub.docker.com/r/teutonet/ckan-dcatapde) | ![Docker Stars](https://img.shields.io/docker/stars/teutonet/ckan-dcatapde) | ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/teutonet/ckan-dcatapde) | ![Docker Pulls](https://img.shields.io/docker/pulls/teutonet/ckan-dcatapde) |
-| [teutonet/solr-ckan](https://hub.docker.com/r/teutonet/solr-ckan)         | ![Docker Stars](https://img.shields.io/docker/stars/teutonet/solr-ckan)     | ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/teutonet/solr-ckan)     | ![Docker Pulls](https://img.shields.io/docker/pulls/teutonet/solr-ckan)     |
+| Image                                                                     |Pulls                                                                       |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [teutonet/ckan](https://github.com/teutonet/oci-images/pkgs/container/oci-images%2Fckan)                  |   ![Docker Pulls](https://img.shields.io/github/downloads/teutonet/oci-images/ckan?logo=github)          |
+| [teutonet/ckan-dcatapde](https://github.com/teutonet/oci-images/pkgs/container/oci-images%2Fckan-dcatapde) |   ![Docker Pulls](https://img.shields.io/github/downloads/teutonet/oci-images/ckan-dcatapde?logo=github) |
+| [teutonet/solr-ckan](https://github.com/teutonet/oci-images/pkgs/container/oci-images%2Fsolr-ckan)        | ![Docker Pulls](https://img.shields.io/github/downloads/teutonet/oci-images/solr-ckan?logo=github)     |
 
 
 ## Changelog & Releases
