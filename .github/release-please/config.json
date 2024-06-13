@@ -26,6 +26,9 @@
     },
     "images/solr-ckan": {
       "package-name": "solr-ckan"
+    },
+    "images/spilo": {
+      "package-name": "spilo"
     }
   }
 }
