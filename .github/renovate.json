@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "github>teutonet/renovate-config:regex-managers"
   ],
   "addLabels": ["dependencies"],
   "packageRules": [
