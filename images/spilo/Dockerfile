@@ -24,7 +24,6 @@ ARG POSTGRESQL_IBAN_VERSION=c836207bca039484f49328331a8e3c4876fbb4e6
 
 RUN curl -sfLo iban.zip https://github.com/yorickdewid/PostgreSQL-IBAN/archive/${POSTGRESQL_IBAN_VERSION}.zip && \
     unzip iban.zip
-
 RUN cd /iban/PostgreSQL-IBAN-${POSTGRESQL_IBAN_VERSION} && \
     make PG_CONFIG=/usr/lib/postgresql/${PGVERSION}/bin/pg_config clean all install && \
     make PG_CONFIG=/usr/lib/postgresql/${OLD_PGVERSION}/bin/pg_config clean all install
