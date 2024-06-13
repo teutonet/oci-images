@@ -1,5 +1,12 @@
 # Changelog
 
+## [15.0.1](https://github.com/teutonet/oci-images/compare/spilo-v15.0.0...spilo-v15.0.1) (2024-06-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/zalando/spilo-15 docker tag to v3.2 ([61780b7](https://github.com/teutonet/oci-images/commit/61780b72000aff01130d95c228974a19a7889380))
+
 ## [15.0.0](https://github.com/teutonet/oci-images/compare/spilo-v14.0.0...spilo-v15.0.0) (2024-06-13)
 
 
