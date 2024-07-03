@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/teutonet/oci-images/compare/ckan-v1.0.1...ckan-v1.0.2) (2024-07-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ckan/ckan-base:2.10.4 docker digest to 636e0aa ([8f8e5ec](https://github.com/teutonet/oci-images/commit/8f8e5ec75b61c7cc97497743691c7401c5b6953f))
+
 ## [1.0.1](https://github.com/teutonet/oci-images/compare/ckan-v1.0.0...ckan-v1.0.1) (2024-06-27)
 
 
