@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.6...solr-ckan-v1.0.7) (2024-08-15)
+
+
+### Bug Fixes
+
+* **solr-ckan:** update build to work with cloud mode ([#61](https://github.com/teutonet/oci-images/issues/61)) ([b5ef942](https://github.com/teutonet/oci-images/commit/b5ef94289965df3e3fcf97af23b2029fa7aeda2c))
+
 ## [1.0.6](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.5...solr-ckan-v1.0.6) (2024-07-25)
 
 
