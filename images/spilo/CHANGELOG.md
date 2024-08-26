@@ -1,5 +1,16 @@
 # Changelog
 
+## [16.0.0](https://github.com/teutonet/oci-images/compare/spilo-v15.0.1...spilo-v16.0.0) (2024-08-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **spilo:** update spilo base image ([#70](https://github.com/teutonet/oci-images/issues/70))
+
+### Features
+
+* **spilo:** update spilo base image ([#70](https://github.com/teutonet/oci-images/issues/70)) ([8706bba](https://github.com/teutonet/oci-images/commit/8706bba110b7b5cefee4045c29a246829d4e7a42))
+
 ## [15.0.1](https://github.com/teutonet/oci-images/compare/spilo-v15.0.0...spilo-v15.0.1) (2024-06-13)
 
 
