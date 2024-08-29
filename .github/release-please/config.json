@@ -29,6 +29,12 @@
     },
     "images/spilo": {
       "package-name": "spilo"
+    },
+    "images/masterportal/masterportal-v2": {
+      "package-name": "masterportal"
+    },
+    "images/masterportal/masterportal-v3": {
+      "package-name": "masterportal"
     }
   }
 }
