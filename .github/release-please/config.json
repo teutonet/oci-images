@@ -31,10 +31,10 @@
       "package-name": "spilo"
     },
     "images/masterportal/masterportal-v2": {
-      "package-name": "masterportal"
+      "package-name": "masterportal-v2"
     },
     "images/masterportal/masterportal-v3": {
-      "package-name": "masterportal"
+      "package-name": "masterportal-v3"
     }
   }
 }
