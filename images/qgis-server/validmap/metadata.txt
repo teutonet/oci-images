@@ -1,0 +1,10 @@
+[general]
+name=validmap
+server=True
+description=Ensure that the MAP parameter is restricted to safe values.
+about=This QGIS server plugin ensures that the MAP=... parameter always matches `[-_a-z]+`, suffixes it with `.qgs` and prefixes it with PROJECT_PREFIX and the value itself as a directory name. Invalid values are removed to mitigate malicious requests.
+repository=https://gitlab.com/urban-data-hub/gdi
+qgisMinimumVersion=3
+version=0.0.1
+author=git
+email=git@example.com
