@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.10](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.9...solr-ckan-v2.48.0) (2024-09-26)
+
+
+### Miscellaneous Chores
+
+* **deps:** update bitnami/solr:9 docker digest to ca0ddbf ([#85](https://github.com/teutonet/oci-images/issues/85)) ([215af52](https://github.com/teutonet/oci-images/commit/215af52387afb7586e843881d02ad92c38d171b4))
+
 ## [1.0.9](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.8...solr-ckan-v1.0.9) (2024-09-02)
 
 
