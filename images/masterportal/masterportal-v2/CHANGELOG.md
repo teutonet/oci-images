@@ -1,5 +1,3 @@
-# Changelog
-
 ## [2.48.0](https://github.com/teutonet/oci-images/compare/masterportal-v2-v2.48.0...masterportal-v2-v2.48.0) (2024-09-26)
 
 

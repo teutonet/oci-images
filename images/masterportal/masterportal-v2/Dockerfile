@@ -1,6 +1,6 @@
 FROM nginx:1.27.1-alpine@sha256:a5127daff3d6f4606be3100a252419bfa84fd6ee5cd74d0feaca1a5068f97dcf
 
-ENV MASTERPORTAL_VERSION 2.48.0
+ENV MASTERPORTAL_VERSION 2.49.0
 
 # download and restructure Masterportal
 RUN curl -fsLw "status %{http_code}, size: %{size_download}" \
