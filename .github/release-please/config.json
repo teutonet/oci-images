@@ -30,6 +30,9 @@
     "images/spilo": {
       "package-name": "spilo"
     },
+    "images/qgis-server": {
+      "package-name": "qgis-server"
+    },
     "images/masterportal/masterportal-v2": {
       "package-name": "masterportal-v2"
     },
