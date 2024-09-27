@@ -1,4 +1,4 @@
-FROM ckan/ckan-base:2.11.0@sha256:0641aadfda75885a1ff1e84f47b0772544c392533e4e7cae9e739fda7923986c
+FROM ckan/ckan-base:2.11.0@sha256:25f62915e2603fdeed0423cc04d89fb7cd57223fe06a09602360a94203d270b7
 
 # Install any extensions needed by your CKAN instance
 # See Dockerfile.dev for more details and examples
