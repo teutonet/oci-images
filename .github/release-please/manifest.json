@@ -3,7 +3,7 @@
   "images/ckan-dcatapde": "1.0.4",
   "images/solr-ckan": "1.0.10",
   "images/spilo": "16.0.0",
-  "images/qgis-server": "3.22.3",
+  "images/qgis-server": "3.22.4",
   "images/masterportal/masterportal-v2": "2.49.0",
   "images/masterportal/masterportal-v3": "3.1.0"
 }
