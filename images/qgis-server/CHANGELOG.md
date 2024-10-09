@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.22.4](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.3...qgis-server-v3.22.4) (2024-10-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** update debian:bookworm-slim docker digest to ad86386 ([#109](https://github.com/teutonet/oci-images/issues/109)) ([0b0323c](https://github.com/teutonet/oci-images/commit/0b0323c1f23e779126dd81c3fe0329e0129c8722))
+* **main:** [bot] release qgis-server:3.22.3 ([#111](https://github.com/teutonet/oci-images/issues/111)) ([0f74924](https://github.com/teutonet/oci-images/commit/0f74924dd85adbf6071001cb28f923588370dffe))
+* **main:** [bot] release qgis-server:3.22.4 ([#108](https://github.com/teutonet/oci-images/issues/108)) ([2213db8](https://github.com/teutonet/oci-images/commit/2213db8443b8ca47fce0c4e5283b2a7aadca64c8))
+
 ## [3.22.3](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.4...qgis-server-v3.22.3) (2024-09-30)
 
 
