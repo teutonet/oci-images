@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.48.0](https://github.com/teutonet/oci-images/compare/ckan-v1.0.4...ckan-v2.48.0) (2024-10-09)
+## [1.0.5](https://github.com/teutonet/oci-images/compare/ckan-v1.0.4...ckan-v2.48.0) (2024-10-09)
 
 
 ### Miscellaneous Chores
