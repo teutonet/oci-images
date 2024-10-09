@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.48.0](https://github.com/teutonet/oci-images/compare/ckan-v1.0.5...ckan-v2.48.0) (2024-10-09)
+
+
+### Features
+
+* **ci:** initial repo setup ([8009c05](https://github.com/teutonet/oci-images/commit/8009c050a2ef05c2d1dd5c6406f6499064442b46))
+
+
+### Miscellaneous Chores
+
+* **deps:** pin dependencies ([#1](https://github.com/teutonet/oci-images/issues/1)) ([98fee24](https://github.com/teutonet/oci-images/commit/98fee2463e2464390affc4c52c3dbe95151ff5f6))
+* **deps:** update ckan/ckan-base docker tag to v2.11.0 ([#62](https://github.com/teutonet/oci-images/issues/62)) ([a8c5091](https://github.com/teutonet/oci-images/commit/a8c50915856fb252b9c33384c4c01e2f3b77c9d6))
+* **deps:** update ckan/ckan-base:2.10.4 docker digest to 636e0aa ([8f8e5ec](https://github.com/teutonet/oci-images/commit/8f8e5ec75b61c7cc97497743691c7401c5b6953f))
+* **deps:** update ckan/ckan-base:2.10.4 docker digest to 83f67f4 ([2607189](https://github.com/teutonet/oci-images/commit/2607189d8350b1e481c24ce152133c5b29d257f7))
+* **deps:** update ckan/ckan-base:2.11.0 docker digest to 0641aad ([#66](https://github.com/teutonet/oci-images/issues/66)) ([ceebf12](https://github.com/teutonet/oci-images/commit/ceebf12341f87b706da467e4d5a411ec4c39dec7))
+* **deps:** update ckan/ckan-base:2.11.0 docker digest to 25f6291 ([#88](https://github.com/teutonet/oci-images/issues/88)) ([be0f617](https://github.com/teutonet/oci-images/commit/be0f61712935e390dee66ba4ac59d82d59d05cc5))
+* **main:** [bot] release ckan:1.0.0 ([#4](https://github.com/teutonet/oci-images/issues/4)) ([3ce5f07](https://github.com/teutonet/oci-images/commit/3ce5f078727642507d02f158456ea517704b8a44))
+* **main:** [bot] release ckan:1.0.1 ([#31](https://github.com/teutonet/oci-images/issues/31)) ([c523afd](https://github.com/teutonet/oci-images/commit/c523afd93d276d15d92e261040fcb9406fe211a6))
+* **main:** [bot] release ckan:1.0.2 ([#41](https://github.com/teutonet/oci-images/issues/41)) ([e597e44](https://github.com/teutonet/oci-images/commit/e597e44cd0bc2a6d22cc2a863efb32a2ab0ba0d5))
+* **main:** [bot] release ckan:1.0.3 ([#43](https://github.com/teutonet/oci-images/issues/43)) ([5134233](https://github.com/teutonet/oci-images/commit/5134233e29f9948caa38d942f2d07bbc024215a3))
+* **main:** [bot] release ckan:1.0.4 ([#65](https://github.com/teutonet/oci-images/issues/65)) ([c3c4ed0](https://github.com/teutonet/oci-images/commit/c3c4ed00e65efd855b7e7b08342854e370b967ac))
+* **main:** [bot] release ckan:1.0.5 ([#80](https://github.com/teutonet/oci-images/issues/80)) ([b985a35](https://github.com/teutonet/oci-images/commit/b985a3532a7f6cfd6e0229c27cebb50e2b1047b0))
+* **main:** Set relese version ([#82](https://github.com/teutonet/oci-images/issues/82)) ([507ad38](https://github.com/teutonet/oci-images/commit/507ad38b081e0d8b5c0e4e2206c9b751cc141001))
+* release 1.0.0 ([6be7255](https://github.com/teutonet/oci-images/commit/6be725545d58cb559c435c759af1f25b69743186))
+
 ## [1.0.5](https://github.com/teutonet/oci-images/compare/ckan-v1.0.4...ckan-v2.48.0) (2024-10-09)
 
 
