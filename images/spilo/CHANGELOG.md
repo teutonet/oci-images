@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.48.0](https://github.com/teutonet/oci-images/compare/spilo-v16.0.0...spilo-v2.48.0) (2024-10-18)
+
+
+### Miscellaneous Chores
+
+* **main:** Set relese version ([#82](https://github.com/teutonet/oci-images/issues/82)) ([507ad38](https://github.com/teutonet/oci-images/commit/507ad38b081e0d8b5c0e4e2206c9b751cc141001))
+
 ## [16.0.0](https://github.com/teutonet/oci-images/compare/spilo-v15.0.1...spilo-v16.0.0) (2024-08-26)
 
 
