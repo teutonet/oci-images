@@ -1,4 +1,4 @@
-FROM bitnami/solr:9@sha256:decfb912f0f74945bdf3fb5fa641431ec264da313dbbdc3679be97dce5c39f72
+FROM bitnami/solr:9@sha256:619236b23eef525bb6d827d83e4404167760ba13cd0ba108cff4adafc2f9f64b
 
 EXPOSE 8983
 
