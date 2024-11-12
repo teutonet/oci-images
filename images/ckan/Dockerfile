@@ -7,6 +7,7 @@ FROM ckan/ckan-base:2.11.0@sha256:25f62915e2603fdeed0423cc04d89fb7cd57223fe06a09
 COPY docker-entrypoint.d/* /docker-entrypoint.d/
 
 COPY setup/prerun.py.override ${APP_DIR}/prerun.py
+COPY setup/start_ckan.sh.override ${APP_DIR}/start_ckan.sh
 
 RUN chown -R ckan /srv/app/
 
