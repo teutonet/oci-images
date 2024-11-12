@@ -2,8 +2,16 @@ import os
 import sys
 import subprocess
 import psycopg2
-import urllib.request, urllib.error, urllib.parse, base64
+try:
+    from urllib.request import urlopen
+    from urllib.request import Request
+    from urllib.error import URLError
+except ImportError:
+    from urllib2 import urlopen
+    from urllib2 import Request
+    from urllib2 import URLError
 
+import base64
 import time
 import re
 import json
@@ -28,6 +36,7 @@ def check_main_db_connection(retry=None):
     conn_str = os.environ.get("CKAN_SQLALCHEMY_URL")
     if not conn_str:
         print("[prerun] CKAN_SQLALCHEMY_URL not defined, not checking db")
+        return
     return check_db_connection(conn_str, retry)
 
 
@@ -36,6 +45,7 @@ def check_datastore_db_connection(retry=None):
     conn_str = os.environ.get("CKAN_DATASTORE_WRITE_URL")
     if not conn_str:
         print("[prerun] CKAN_DATASTORE_WRITE_URL not defined, not checking db")
+        return
     return check_db_connection(conn_str, retry)
 
 
@@ -74,12 +84,12 @@ def check_solr_connection(retry=None):
 
     try:
         if not username:
-            connection = urllib.request.urlopen(search_url)
+            connection = urlopen(search_url)
         else:
-            request = urllib.request.Request(search_url)
+            request_solr = Request(search_url)
             base64string = base64.b64encode(bytes('%s:%s' % (username, password),'ascii'))
-            request.add_header("Authorization", "Basic %s" % base64string.decode('utf-8'))
-            connection = urllib.request.urlopen(request)
+            request_solr.add_header("Authorization", "Basic %s" % base64string.decode('utf-8'))
+            connection = urlopen(request_solr)
     except URLError as e:
         print(str(e))
         print("[prerun] Unable to connect to solr, waiting...")
@@ -97,18 +107,18 @@ def check_solr_connection(retry=None):
 
 def init_db():
 
-    db_command = ["ckan", "-c", ckan_ini, "db", "upgrade"]
+    db_command = ["ckan", "-c", ckan_ini, "db", "init"]
     print("[prerun] Initializing or upgrading db - start")
     try:
         subprocess.check_output(db_command, stderr=subprocess.STDOUT)
         print("[prerun] Initializing or upgrading db - end")
     except subprocess.CalledProcessError as e:
-        if "OperationalError" in e.output:
-            print(e.output)
+        if "OperationalError" in str(e.output):
             print("[prerun] Database not ready, waiting a bit before exit...")
             time.sleep(5)
             sys.exit(1)
         else:
+            print(str(e))
             print(e.output)
             raise e
 
@@ -141,7 +151,6 @@ def init_datastore_db():
         connection.commit()
 
         print("[prerun] Initializing datastore db - end")
-        print(datastore_perms.stdout.read())
     except psycopg2.Error as e:
         print("[prerun] Could not initialize datastore")
         print(str(e))
@@ -197,6 +206,13 @@ def create_sysadmin():
         subprocess.call(command)
         print("[prerun] Made user {0} a sysadmin".format(name))
 
+        # cleanup permissions
+        # We're running as root before pivoting to uwsgi and dropping privs
+        data_dir = "%s/storage" % os.environ['CKAN_STORAGE_PATH']
+
+        command = ["chown", "-R", "ckan:ckan", data_dir]
+        subprocess.call(command)
+        print("[prerun] Ensured storage directory is owned by ckan")
 
 if __name__ == "__main__":
 
@@ -212,4 +228,3 @@ if __name__ == "__main__":
         init_datastore_db()
         check_solr_connection()
         create_sysadmin()
-        
