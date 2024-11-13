@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.49.3](https://github.com/teutonet/oci-images/compare/masterportal-v2-v2.49.2...masterportal-v2-v2.49.3) (2024-11-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx:1.27.2-alpine docker digest to 88cad85 ([#141](https://github.com/teutonet/oci-images/issues/141)) ([5fbb230](https://github.com/teutonet/oci-images/commit/5fbb23087d99e000e930fa47031ce5fe9d4fead9))
+
 ## [2.49.2](https://github.com/teutonet/oci-images/compare/masterportal-v2-v2.49.1...masterportal-v2-v2.49.2) (2024-11-12)
 
 
