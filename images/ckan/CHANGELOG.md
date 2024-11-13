@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.7](https://github.com/teutonet/oci-images/compare/ckan-v1.0.6...ckan-v1.0.7) (2024-11-14)
+## [1.0.8](https://github.com/teutonet/oci-images/compare/ckan-v1.0.6...ckan-v1.0.7) (2024-11-14)
 
 
 ### Bug Fixes
@@ -11,14 +11,6 @@
 ### Miscellaneous Chores
 
 * **deps:** update ckan/ckan-base:2.11.0 docker digest to 5a97b86 ([#150](https://github.com/teutonet/oci-images/issues/150)) ([6cf23fb](https://github.com/teutonet/oci-images/commit/6cf23fb239a1d474db145305851178895337d45e))
-
-## [1.0.6](https://github.com/teutonet/oci-images/compare/ckan-v1.0.5...ckan-v1.0.6) (2024-11-13)
-
-
-### Miscellaneous Chores
-
-* **ckan:** update docker build to ckan 2.11 ([#137](https://github.com/teutonet/oci-images/issues/137)) ([5d86b97](https://github.com/teutonet/oci-images/commit/5d86b97363f84324fcd8314dc6a11758f82375d0))
-* **deps:** update ckan/ckan-base:2.11.0 docker digest to dc32715 ([#134](https://github.com/teutonet/oci-images/issues/134)) ([d9c7e26](https://github.com/teutonet/oci-images/commit/d9c7e2685ad0ff65a45ebe8675a035def747806d))
 
 ## [1.0.5](https://github.com/teutonet/oci-images/compare/ckan-v1.0.4...ckan-v2.48.0) (2024-10-09)
 
