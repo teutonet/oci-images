@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.7](https://github.com/teutonet/oci-images/compare/ckan-v1.0.6...ckan-v1.0.7) (2024-11-14)
+
+
+### Bug Fixes
+
+* **ckan:** change setup script permission ([#152](https://github.com/teutonet/oci-images/issues/152)) ([34f5963](https://github.com/teutonet/oci-images/commit/34f5963b9d70ba4c362328c6669e6d897a90e732))
+
+
+### Miscellaneous Chores
+
+* **deps:** update ckan/ckan-base:2.11.0 docker digest to 5a97b86 ([#150](https://github.com/teutonet/oci-images/issues/150)) ([6cf23fb](https://github.com/teutonet/oci-images/commit/6cf23fb239a1d474db145305851178895337d45e))
+
 ## [1.0.6](https://github.com/teutonet/oci-images/compare/ckan-v1.0.5...ckan-v1.0.6) (2024-11-13)
 
 
