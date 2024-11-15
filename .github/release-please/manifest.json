@@ -4,6 +4,6 @@
   "images/solr-ckan": "1.0.13",
   "images/spilo": "16.0.0",
   "images/qgis-server": "3.22.5",
-  "images/masterportal/masterportal-v2": "2.49.3",
-  "images/masterportal/masterportal-v3": "3.4.0"
+  "images/masterportal-v2": "2.49.3",
+  "images/masterportal-v3": "3.4.0"
 }
