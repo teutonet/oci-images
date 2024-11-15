@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.8](https://github.com/teutonet/oci-images/compare/ckan-v1.0.6...ckan-v1.0.7) (2024-11-14)
+## [1.0.9](https://github.com/teutonet/oci-images/compare/ckan-v1.0.6...ckan-v1.0.7) (2024-11-14)
 
 
 ### Bug Fixes
