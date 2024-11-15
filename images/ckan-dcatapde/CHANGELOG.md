@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.6](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.5...ckan-dcatapde-v1.0.6) (2024-11-13)
+## [1.0.9](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.5...ckan-dcatapde-v1.0.6) (2024-11-13)
 
 
 ### Miscellaneous Chores
