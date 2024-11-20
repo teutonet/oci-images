@@ -16,10 +16,10 @@ RUN cd ${SRC_DIR}/ckanext-dcatde \
     python setup.py develop
 
 # Copy custom initialization scripts
-COPY docker-entrypoint.d/* /docker-entrypoint.d/
+COPY --chown=ckan:ckan-sys docker-entrypoint.d/02_setup_dcat.sh /docker-entrypoint.d/02_setup_dcat.sh
 
-COPY setup/prerun.py.override ${APP_DIR}/prerun.py
-COPY setup/start_ckan.sh.override ${APP_DIR}/start_ckan.sh
+COPY --chown=ckan:ckan-sys setup/prerun.py.override ${APP_DIR}/prerun.py
+COPY --chown=ckan:ckan-sys setup/start_ckan.sh.override ${APP_DIR}/start_ckan.sh
 
 RUN chown -R ckan /srv/app/
 
