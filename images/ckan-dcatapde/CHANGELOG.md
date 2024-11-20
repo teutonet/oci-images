@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.10](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.9...ckan-dcatapde-v1.0.10) (2024-11-20)
+
+
+### Miscellaneous Chores
+
+* **ckan:** update permissions and building ([#162](https://github.com/teutonet/oci-images/issues/162)) ([3dcd6af](https://github.com/teutonet/oci-images/commit/3dcd6af0396162018cdb648add2294026085ecb9))
+
 ## [1.0.9](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.5...ckan-dcatapde-v1.0.6) (2024-11-13)
 
 
