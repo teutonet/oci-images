@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.2](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.1...masterportal-v3-v2.48.0) (2024-11-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx docker tag to v1.27.3 ([#166](https://github.com/teutonet/oci-images/issues/166)) ([fca7e73](https://github.com/teutonet/oci-images/commit/fca7e736fbee3de8fb75c51b144c84f1496a895e))
+* **masterportal:** add cesium config to dockerfile ([#169](https://github.com/teutonet/oci-images/issues/169)) ([6526a6e](https://github.com/teutonet/oci-images/commit/6526a6e43be87847c5ac83176efda21775528bc9))
+
 ## [3.4.0](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.1.1...masterportal-v3-v2.48.0) (2024-11-15)
 
 
