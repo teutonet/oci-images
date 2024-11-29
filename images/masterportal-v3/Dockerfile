@@ -11,7 +11,8 @@ RUN curl -fsLw "status %{http_code}, size: %{size_download}" \
     && mv /tmp/masterportal/Basic /usr/share/nginx/html/upstream \
     && mv /tmp/masterportal/mastercode/* /usr/share/nginx/html/upstream/mastercode \
     && rmdir /tmp/masterportal/mastercode /tmp/masterportal \
-    && sed -i 's#\.\./mastercode/[^/]*/#./mastercode/#g' /usr/share/nginx/html/upstream/index.html
+    && sed -i 's#\.\./mastercode/[^/]*/#./mastercode/#g' /usr/share/nginx/html/upstream/index.html \
+    && sed -i '/const Config = {/a \    cesiumLibrary: "https://cesium.com/downloads/cesiumjs/releases/1.95/Build/Cesium/Cesium.js",' /usr/share/nginx/html/upstream/config.js
 
 # layer git-sync volume over upstream
 # rewrite the hard-coded version number in some paths to reduce the necessary changes to overlays for updates
