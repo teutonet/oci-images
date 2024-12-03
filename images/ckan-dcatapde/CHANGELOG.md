@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.11](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.10...ckan-dcatapde-v1.0.11) (2024-12-03)
+
+
+### Miscellaneous Chores
+
+* **ckan:** auto deactivate datapusher if key is missing ([#172](https://github.com/teutonet/oci-images/issues/172)) ([a33fbae](https://github.com/teutonet/oci-images/commit/a33fbaef25e1dbaf4611400e5cf7468c4ea15d94))
+* **deps:** update ckan/ckan-base:2.11.0 docker digest to bae3f94 ([#164](https://github.com/teutonet/oci-images/issues/164)) ([a76b589](https://github.com/teutonet/oci-images/commit/a76b589c4d67d8a8f7fc693365080ac74f9a6d55))
+
 ## [1.0.10](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.9...ckan-dcatapde-v1.0.10) (2024-11-20)
 
 
