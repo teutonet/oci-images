@@ -1,9 +1,14 @@
 #!/bin/bash
 
 if [[ $CKAN__PLUGINS == *"datapusher"* ]]; then
-  # Add ckan.datapusher.api_token to the CKAN config file (updated with corrected value later)
-  echo "Setting a value for ckan.datapusher.api_token"
-  ckan config-tool $CKAN_INI ckan.datapusher.api_token="${CKAN__DATAPUSHER__API_TOKEN:-xxx}"
+  # Add ckan.datapusher.api_token to the CKAN config file or deactivate plugin
+  if [[ -z "${CKAN__DATAPUSHER__API_TOKEN}" ]]
+  then
+    ckan config-tool $CKAN_INI "ckan.plugins=$(echo $CKAN__PLUGINS | sed 's/\bdatapusher\b//g' | sed 's/  */ /g' | sed 's/^ *//g' | sed 's/ *$//g')"
+  else
+    echo "Setting a value for ckan.datapusher.api_token"
+    ckan config-tool $CKAN_INI ckan.datapusher.api_token="${CKAN__DATAPUSHER__API_TOKEN:-xxx}"
+  fi
 fi
 
 # Set up the Secret key used by Beaker and Flask
