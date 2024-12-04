@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.12](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.11...ckan-dcatapde-v1.0.12) (2024-12-04)
+
+
+### Miscellaneous Chores
+
+* **ckan:** change methode to remove datapusher if api key is missing ([#175](https://github.com/teutonet/oci-images/issues/175)) ([d03967f](https://github.com/teutonet/oci-images/commit/d03967f1297be56bd750021140de2a40f3849a44))
+
 ## [1.0.11](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.10...ckan-dcatapde-v1.0.11) (2024-12-03)
 
 
