@@ -1,4 +1,4 @@
-FROM ckan/ckan-base:2.11.0@sha256:bae3f94276dcdb38bb1d9674604b3515e24831a5207040d50580e6ef2d0749af
+FROM ckan/ckan-base:2.11.0@sha256:2040c4b3de7e5b7c72b018e8b618f8a3571ceb293164ace51fe67daa408db067
 
 USER root
 
