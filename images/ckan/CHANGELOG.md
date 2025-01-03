@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.12](https://github.com/teutonet/oci-images/compare/ckan-v1.0.11...ckan-v1.0.12) (2025-01-03)
+
+
+### Miscellaneous Chores
+
+* **ckan:** change methode to remove datapusher if api key is missing ([#175](https://github.com/teutonet/oci-images/issues/175)) ([d03967f](https://github.com/teutonet/oci-images/commit/d03967f1297be56bd750021140de2a40f3849a44))
+* **deps:** update ckan/ckan-base docker tag to v2.11.1 ([#179](https://github.com/teutonet/oci-images/issues/179)) ([a8c9515](https://github.com/teutonet/oci-images/commit/a8c951510882c3a3a2fc8f60b467bfe2e439aef8))
+
 ## [1.0.11](https://github.com/teutonet/oci-images/compare/ckan-v1.0.10...ckan-v1.0.11) (2024-12-03)
 
 
