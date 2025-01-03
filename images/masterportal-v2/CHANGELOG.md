@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.48.0](https://github.com/teutonet/oci-images/compare/masterportal-v2-v2.51.1...masterportal-v2-v2.48.0) (2025-01-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx docker tag to v1.27.3 ([#166](https://github.com/teutonet/oci-images/issues/166)) ([fca7e73](https://github.com/teutonet/oci-images/commit/fca7e736fbee3de8fb75c51b144c84f1496a895e))
+* **deps:** update nginx:1.27.3-alpine docker digest to 4152318 ([#171](https://github.com/teutonet/oci-images/issues/171)) ([1de27bc](https://github.com/teutonet/oci-images/commit/1de27bce6caa44cd01eaf98f59debb62a2859566))
+* **main:** [bot] release masterportal-v2:2.48.0 ([#158](https://github.com/teutonet/oci-images/issues/158)) ([5cdace9](https://github.com/teutonet/oci-images/commit/5cdace96e11e53029015449cbc334c00198a4d4e))
+* **main:** [bot] release masterportal-v2:2.51.1 ([#184](https://github.com/teutonet/oci-images/issues/184)) ([c0c3ee6](https://github.com/teutonet/oci-images/commit/c0c3ee615ecbedbf31ea11692ca58965ead5483e))
+* **main:** Set relese version ([#82](https://github.com/teutonet/oci-images/issues/82)) ([507ad38](https://github.com/teutonet/oci-images/commit/507ad38b081e0d8b5c0e4e2206c9b751cc141001))
+* **masterportal:** add cesium config to dockerfile ([#169](https://github.com/teutonet/oci-images/issues/169)) ([6526a6e](https://github.com/teutonet/oci-images/commit/6526a6e43be87847c5ac83176efda21775528bc9))
+* **oci-images:** update folder structure masterportal ([#154](https://github.com/teutonet/oci-images/issues/154)) ([14ed4b7](https://github.com/teutonet/oci-images/commit/14ed4b7473dcde67dac9f5a7a1e801cb985eda83))
+* release 1.0.0 ([6be7255](https://github.com/teutonet/oci-images/commit/6be725545d58cb559c435c759af1f25b69743186))
+
 ## [2.51.1](https://github.com/teutonet/oci-images/compare/masterportal-v2-v2.51.0...masterportal-v2-v2.51.1) (2025-01-03)
 
 
