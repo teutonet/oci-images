@@ -1,7 +1,7 @@
 ARG OLD_PGVERSION=15
 ARG PGVERSION=16
 
-FROM ghcr.io/zalando/spilo-16:3.3-p2@sha256:dc5cfb9343ea07bfa8c1f98090502e54dcbf5f51e85b7c5664cd20621788681f AS extension-builder
+FROM ghcr.io/zalando/spilo-16:3.3-p3@sha256:0a59aa400727c0a6fac9635f17b09aece9a7ae5e58f0979b1bb0b7e30fb82665 AS extension-builder
 # Build process requires installed postgres
 
 ARG OLD_PGVERSION
@@ -44,7 +44,7 @@ RUN mkdir -p /usr/local/share/postgres/extensions
 RUN wget -O /usr/local/share/postgres/extensions/postgres-json-schema--0.1.1.sql https://raw.githubusercontent.com/gavinwahl/postgres-json-schema/570e19f5b2b4e6ff1414eebe2191e14c437760d9/postgres-json-schema--0.1.1.sql
 RUN wget -O /usr/local/share/postgres/extensions/postgres-json-schema.control https://raw.githubusercontent.com/gavinwahl/postgres-json-schema/570e19f5b2b4e6ff1414eebe2191e14c437760d9/postgres-json-schema.control
 
-FROM ghcr.io/zalando/spilo-16:3.3-p2@sha256:dc5cfb9343ea07bfa8c1f98090502e54dcbf5f51e85b7c5664cd20621788681f AS final
+FROM ghcr.io/zalando/spilo-16:3.3-p3@sha256:0a59aa400727c0a6fac9635f17b09aece9a7ae5e58f0979b1bb0b7e30fb82665 AS final
 # Setup final image with extensions
 
 ARG PGVERSION
