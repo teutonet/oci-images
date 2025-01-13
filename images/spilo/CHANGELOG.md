@@ -1,5 +1,13 @@
 # Changelog
 
+## [16.0.1](https://github.com/teutonet/oci-images/compare/spilo-v16.0.0...spilo-v16.0.1) (2025-01-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update spilo image to 3.3-p3 ([#196](https://github.com/teutonet/oci-images/issues/196)) ([e5bb239](https://github.com/teutonet/oci-images/commit/e5bb2390f09dbf42358038871182d4fa9f1e3e1b))
+* **main:** Set relese version ([#82](https://github.com/teutonet/oci-images/issues/82)) ([507ad38](https://github.com/teutonet/oci-images/commit/507ad38b081e0d8b5c0e4e2206c9b751cc141001))
+
 ## [16.0.0](https://github.com/teutonet/oci-images/compare/spilo-v15.0.1...spilo-v16.0.0) (2024-08-26)
 
 
