@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.16](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.15...solr-ckan-v1.0.16) (2025-01-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** update bitnami/solr:9 docker digest to 1f14781 ([#202](https://github.com/teutonet/oci-images/issues/202)) ([483af84](https://github.com/teutonet/oci-images/commit/483af84b3d3e646b0a9d3ddb10c0f6f032de3db4))
+
 ## [1.0.15](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.14...solr-ckan-v1.0.15) (2025-01-15)
 
 
