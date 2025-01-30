@@ -1,6 +1,6 @@
 # Changelog
 
-## [3.22.7](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.6...qgis-server-v3.22.7) (2025-01-30)
+## [3.22.8](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.6...qgis-server-v3.22.8) (2025-01-30)
 
 
 ### Miscellaneous Chores
