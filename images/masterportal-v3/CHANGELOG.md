@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.4.4](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.3...masterportal-v3-v3.4.4) (2025-02-26)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx docker tag to v1.27.4 ([#210](https://github.com/teutonet/oci-images/issues/210)) ([274faf6](https://github.com/teutonet/oci-images/commit/274faf63572b4bc09e6ef3336920107f5fc573b7))
+* **deps:** update nginx:1.27.3-alpine docker digest to 814a8e8 ([#192](https://github.com/teutonet/oci-images/issues/192)) ([6d799f6](https://github.com/teutonet/oci-images/commit/6d799f686f8a84d5848205e95faefb33e5284a2c))
+* **deps:** update nginx:1.27.4-alpine docker digest to 4ff102c ([#217](https://github.com/teutonet/oci-images/issues/217)) ([ee140ec](https://github.com/teutonet/oci-images/commit/ee140ecf5ff12a56fbd9cd026bb0ad6547e71730))
+
 ## [3.4.3](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.2...masterportal-v3-v3.4.3) (2025-01-03)
 
 
