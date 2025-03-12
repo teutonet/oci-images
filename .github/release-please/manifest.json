@@ -1,7 +1,7 @@
 {
   "images/ckan": "1.0.13",
   "images/ckan-dcatapde": "1.0.14",
-  "images/solr-ckan": "1.0.19",
+  "images/solr-ckan": "1.0.20",
   "images/spilo": "16.0.1",
   "images/qgis-server": "3.22.8",
   "images/masterportal-v2": "2.51.2",
