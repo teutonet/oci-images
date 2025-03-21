@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.22.9](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.8...qgis-server-v3.22.9) (2025-03-21)
+
+
+### Miscellaneous Chores
+
+* **deps:** update debian:bookworm-slim docker digest to 1209d8f ([#240](https://github.com/teutonet/oci-images/issues/240)) ([27fa65a](https://github.com/teutonet/oci-images/commit/27fa65a4005d61ee47daa1a3aba32a0efdcbedbd))
+
+
 ## [3.22.8](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.6...qgis-server-v3.22.8) (2025-01-30)
 
 
