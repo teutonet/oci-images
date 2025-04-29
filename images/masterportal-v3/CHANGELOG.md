@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.6](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.5...masterportal-v3-v3.4.6) (2025-04-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx docker tag to v1.28.0 ([#259](https://github.com/teutonet/oci-images/issues/259)) ([77c354b](https://github.com/teutonet/oci-images/commit/77c354bd1d563c69652af935492bbc2c14b9995d))
+
 ## [3.4.5](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.4...masterportal-v3-v3.4.5) (2025-04-22)
 
 
