@@ -4,13 +4,13 @@ USER root
 
 # Install any extensions needed by your CKAN instance
 # See Dockerfile.dev for more details and examples
-RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v1.7.0#egg=ckanext-dcat
+RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v2.3.0#egg=ckanext-dcat
 RUN pip install -r ${SRC_DIR}/ckanext-dcat/requirements.txt
 
-RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v1.6.0#egg=ckanext-harvest
+RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v1.6.1#egg=ckanext-harvest
 RUN pip install -r ${SRC_DIR}/ckanext-harvest/requirements.txt
 
-RUN pip3 install -e git+https://github.com/GovDataOfficial/ckanext-dcatde.git@6.8.3#egg=ckanext-dcatde
+RUN pip3 install -e git+https://github.com/GovDataOfficial/ckanext-dcatde.git@6.9.0#egg=ckanext-dcatde
 RUN cd ${SRC_DIR}/ckanext-dcatde \
     pip install -r base-requirements.txt -f requirements \
     python setup.py develop
