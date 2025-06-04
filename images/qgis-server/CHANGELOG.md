@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.22.13](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.12...qgis-server-v3.22.13) (2025-06-04)
+
+
+### Miscellaneous Chores
+
+* **renovate:** add renovate version update ([#276](https://github.com/teutonet/oci-images/issues/276)) ([bf287ea](https://github.com/teutonet/oci-images/commit/bf287ea8788fa9a2fb36ba2fcae0d18ed938bc63))
+
 ## [3.22.12](https://github.com/teutonet/oci-images/compare/qgis-server-v3.22.11...qgis-server-v3.22.12) (2025-06-02)
 
 
