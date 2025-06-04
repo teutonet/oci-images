@@ -12,7 +12,7 @@ RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v${CKANEXT_DCAT
 RUN pip install -r ${SRC_DIR}/ckanext-dcat/requirements.txt
 
 # renovate: datasource=github-tags depName=ckan/ckanext-harvest extractVersion=^v(?<version>.*)$
-ARG CKANEXT_HARVEST_VERSION=1.6.0
+ARG CKANEXT_HARVEST_VERSION=1.6.1
 
 RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v${CKANEXT_HARVEST_VERSION}#egg=ckanext-harvest
 RUN pip install -r ${SRC_DIR}/ckanext-harvest/requirements.txt
