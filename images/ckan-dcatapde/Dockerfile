@@ -4,13 +4,23 @@ USER root
 
 # Install any extensions needed by your CKAN instance
 # See Dockerfile.dev for more details and examples
-RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v1.7.0#egg=ckanext-dcat
+
+# renovate: datasource=github-tags depName=ckan/ckanext-dcat extractVersion=^v(?<version>.*)$
+ARG CKANEXT_DCAT_VERSION=1.7.0
+
+RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v${CKANEXT_DCAT_VERSION}#egg=ckanext-dcat
 RUN pip install -r ${SRC_DIR}/ckanext-dcat/requirements.txt
 
-RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v1.6.0#egg=ckanext-harvest
+# renovate: datasource=github-tags depName=ckan/ckanext-harvest extractVersion=^v(?<version>.*)$
+ARG CKANEXT_HARVEST_VERSION=1.6.0
+
+RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v${CKANEXT_HARVEST_VERSION}#egg=ckanext-harvest
 RUN pip install -r ${SRC_DIR}/ckanext-harvest/requirements.txt
 
-RUN pip3 install -e git+https://github.com/GovDataOfficial/ckanext-dcatde.git@6.8.3#egg=ckanext-dcatde
+# renovate: datasource=github-tags depName=GovDataOfficial/ckanext-dcatde
+ARG CKANEXT_DCATDE_VERSION=6.8.3
+
+RUN pip3 install -e git+https://github.com/GovDataOfficial/ckanext-dcatde.git@${CKANEXT_DCATDE_VERSION}#egg=ckanext-dcatde
 RUN cd ${SRC_DIR}/ckanext-dcatde \
     pip install -r base-requirements.txt -f requirements \
     python setup.py develop
