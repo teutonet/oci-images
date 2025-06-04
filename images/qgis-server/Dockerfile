@@ -2,7 +2,8 @@ FROM debian:bookworm-slim@sha256:90522eeb7e5923ee2b871c639059537b30521272f10ca86
 
 ENV LANG=en_EN.UTF-8
 
-ENV TINI_VERSION v0.19.0
+# renovate: datasource=github-tags depName=krallin/tini
+ENV TINI_VERSION=v0.19.0
 
 RUN apt-get update \
     && apt-get install --no-install-recommends --no-install-suggests -y \
@@ -34,10 +35,10 @@ RUN apt-get update \
 
 RUN useradd -m qgis
 
-ENV QGIS_PREFIX_PATH /usr
-ENV QGIS_SERVER_LOG_STDERR 1
-ENV QGIS_SERVER_LOG_LEVEL 2
-ENV QGIS_PLUGINPATH /plugins
+ENV QGIS_PREFIX_PATH=/usr
+ENV QGIS_SERVER_LOG_STDERR=1
+ENV QGIS_SERVER_LOG_LEVEL=2
+ENV QGIS_PLUGINPATH=/plugins
 
 COPY validmap/ /plugins/validmap/
 

@@ -4,6 +4,7 @@
     "github>teutonet/renovate-config:regex-managers"
   ],
   "addLabels": ["dependencies"],
+  "rebaseWhen": "conflicted",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
