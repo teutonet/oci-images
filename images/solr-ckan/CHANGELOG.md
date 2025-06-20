@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.27](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.26...solr-ckan-v1.0.27) (2025-06-20)
+
+
+### Miscellaneous Chores
+
+* **renovate:** update solr schema version ([#284](https://github.com/teutonet/oci-images/issues/284)) ([d68e476](https://github.com/teutonet/oci-images/commit/d68e47677e49b87c086874a9a7e0ccc72a65e251))
+
 ## [1.0.26](https://github.com/teutonet/oci-images/compare/solr-ckan-v1.0.25...solr-ckan-v1.0.26) (2025-06-02)
 
 
