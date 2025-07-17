@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.16](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.15...ckan-dcatapde-v1.0.16) (2025-07-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ckan/ckan-base docker tag to v2.11.3 ([#265](https://github.com/teutonet/oci-images/issues/265)) ([cd16a22](https://github.com/teutonet/oci-images/commit/cd16a22c537fd4f248777d6f137ba5f5c9cb4cc6))
+* **deps:** update dependency ckan/ckanext-harvest to v1.6.1 ([#277](https://github.com/teutonet/oci-images/issues/277)) ([35f22de](https://github.com/teutonet/oci-images/commit/35f22de8d282a5135376c2c7ea67b11266879d23))
+* **deps:** update dependency govdataofficial/ckanext-dcatde to v6.9.0 ([#279](https://github.com/teutonet/oci-images/issues/279)) ([fd49c82](https://github.com/teutonet/oci-images/commit/fd49c823de20a984c7c5b5a912dbd80d1b3b096d))
+* **renovate:** add renovate version update ([#276](https://github.com/teutonet/oci-images/issues/276)) ([bf287ea](https://github.com/teutonet/oci-images/commit/bf287ea8788fa9a2fb36ba2fcae0d18ed938bc63))
+
 ## [1.0.15](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.14...ckan-dcatapde-v1.0.15) (2025-04-22)
 
 
