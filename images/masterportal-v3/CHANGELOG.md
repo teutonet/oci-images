@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.9](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.8...masterportal-v3-v3.4.9) (2025-07-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** update nginx:1.29.0-alpine docker digest to f741b7f ([#295](https://github.com/teutonet/oci-images/issues/295)) ([8ad8a70](https://github.com/teutonet/oci-images/commit/8ad8a70808e3f88fa7957bbeb7379463b82ef2fb))
+
 ## [3.4.8](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.7...masterportal-v3-v3.4.8) (2025-07-09)
 
 
