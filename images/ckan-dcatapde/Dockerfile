@@ -18,7 +18,7 @@ RUN pip install -e git+https://github.com/ckan/ckanext-harvest.git@v${CKANEXT_HA
 RUN pip install -r ${SRC_DIR}/ckanext-harvest/requirements.txt
 
 # renovate: datasource=github-tags depName=GovDataOfficial/ckanext-dcatde
-ARG CKANEXT_DCATDE_VERSION=6.9.0
+ARG CKANEXT_DCATDE_VERSION=6.10.0
 
 RUN pip3 install -e git+https://github.com/GovDataOfficial/ckanext-dcatde.git@${CKANEXT_DCATDE_VERSION}#egg=ckanext-dcatde
 RUN cd ${SRC_DIR}/ckanext-dcatde \
