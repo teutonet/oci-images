@@ -16,6 +16,7 @@ ADD --chown=k8s:k8s https://aur.archlinux.org/paru-bin.git#master /tmp/paru
 RUN cd /tmp/paru \
   && makepkg -si --noconfirm
 RUN paru -S --noconfirm neovim git k9s kubectl jq npm yq fluxcd k9s-flux helm helm-diff helmrelease-tools
+
 # configure nvim plugins
 RUN git clone https://github.com/LazyVim/starter ~/.config/nvim \
   && rm -rf ~/.config/nvim/.git
