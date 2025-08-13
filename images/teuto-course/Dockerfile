@@ -1,7 +1,7 @@
 FROM archlinux:multilib-devel
 LABEL MAINTAINER="teuto.net"
 LABEL version="1.0"
-LABEL description="A small image with necessary tools for the k8s cours"
+LABEL description="A small image with necessary tools for the k8s course"
 
 USER root
 # Update and installation of tools
