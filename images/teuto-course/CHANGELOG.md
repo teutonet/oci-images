@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.49.0](https://github.com/teutonet/oci-images/compare/teuto-course-v2.48.0...teuto-course-v2.49.0) (2025-08-13)
+
+
+### Features
+
+* trigger build ([#322](https://github.com/teutonet/oci-images/issues/322)) ([44e7bf4](https://github.com/teutonet/oci-images/commit/44e7bf4f96ea8a1835e46baabb84903d776a5ec8))
+
+
+### Miscellaneous Chores
+
+* **main:** [bot] release teuto-course:1.0.1 ([#320](https://github.com/teutonet/oci-images/issues/320)) ([6b7c096](https://github.com/teutonet/oci-images/commit/6b7c0963ddd9a45967135ebfcbaecf351e047f6c))
+* **main:** [bot] release teuto-course:2.48.0 ([#323](https://github.com/teutonet/oci-images/issues/323)) ([d913611](https://github.com/teutonet/oci-images/commit/d9136110a9aa70ab5c9fe8981691acfef558f369))
+
 ## [2.48.0](https://github.com/teutonet/oci-images/compare/teuto-course-v1.0.1...teuto-course-v2.48.0) (2025-08-13)
 
 
