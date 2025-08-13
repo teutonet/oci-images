@@ -38,6 +38,9 @@
     },
     "images/masterportal-v3": {
       "package-name": "masterportal-v3"
-    }
+    },
+    "images/teuto-course": {
+      "package-name": "teuto-course"
+    },
   }
 }
