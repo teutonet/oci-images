@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/teutonet/oci-images/compare/teuto-course-v1.0.0...teuto-course-v1.0.1) (2025-08-13)
+
+
+### Features
+
+* trigger build ([#322](https://github.com/teutonet/oci-images/issues/322)) ([44e7bf4](https://github.com/teutonet/oci-images/commit/44e7bf4f96ea8a1835e46baabb84903d776a5ec8))
+
 ## 1.0.0 (2025-08-13)
 
 
