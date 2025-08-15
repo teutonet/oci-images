@@ -1,4 +1,4 @@
-FROM archlinux:multilib-devel
+FROM archlinux:multilib-devel@sha256:ceeeca91f88305fcc3d59761f080368aacb113c1ea5f708920995e9ed3a159f2
 LABEL MAINTAINER="teuto.net"
 LABEL version="1.0"
 LABEL description="A small image with necessary tools for the k8s course"
