@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.49.1](https://github.com/teutonet/oci-images/compare/teuto-course-v2.49.0...teuto-course-v2.49.1) (2025-09-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** pin archlinux docker tag to 31c2103 ([#316](https://github.com/teutonet/oci-images/issues/316)) ([bc7d32d](https://github.com/teutonet/oci-images/commit/bc7d32d651b80519bc351cf0df66a0a400091582))
+
 ## [2.49.0](https://github.com/teutonet/oci-images/compare/teuto-course-v2.48.0...teuto-course-v2.49.0) (2025-08-13)
 
 
