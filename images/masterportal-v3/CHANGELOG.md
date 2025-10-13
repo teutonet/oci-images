@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.14](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.13...masterportal-v3-v3.4.14) (2025-10-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency geowerkstatt-hamburg/masterportal to v3.15.0 ([#340](https://github.com/teutonet/oci-images/issues/340)) ([2f0f6fd](https://github.com/teutonet/oci-images/commit/2f0f6fd70d808419af2f31822c1ee50b53522816))
+* **deps:** update nginx docker tag to v1.29.2 ([#342](https://github.com/teutonet/oci-images/issues/342)) ([d81cb30](https://github.com/teutonet/oci-images/commit/d81cb30c0607cc2b02fbdcb85f7be23c64ce183b))
+
 ## [3.4.13](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.12...masterportal-v3-v3.4.13) (2025-09-17)
 
 
