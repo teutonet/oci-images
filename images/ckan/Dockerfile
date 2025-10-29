@@ -1,4 +1,4 @@
-FROM ckan/ckan-base:2.11.3@sha256:19be56ca09ba85986da54471f6c8ac065fbc6f84d7b019bad21cacd17eafd5a6
+FROM ckan/ckan-base:2.11.4@sha256:22139325158d49473d910d60256a7dc8437795949bf72507a90f3510f9065438
 
 # Copy custom initialization scripts
 
