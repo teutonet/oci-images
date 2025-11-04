@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.16](https://github.com/teutonet/oci-images/compare/ckan-v1.0.15...ckan-v1.0.16) (2025-11-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ckan/ckan-base docker tag to v2.11.4 ([#348](https://github.com/teutonet/oci-images/issues/348)) ([af07008](https://github.com/teutonet/oci-images/commit/af07008242a2b619bc85bdb8e7ce9de770dee789))
+
 ## [1.0.15](https://github.com/teutonet/oci-images/compare/ckan-v1.0.14...ckan-v1.0.15) (2025-06-02)
 
 
