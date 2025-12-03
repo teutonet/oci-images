@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.17](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.16...masterportal-v3-v3.4.17) (2025-12-03)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency geowerkstatt-hamburg/masterportal to v3.16.2 ([#365](https://github.com/teutonet/oci-images/issues/365)) ([a11842f](https://github.com/teutonet/oci-images/commit/a11842fb1ac911d17b8fd6b5754820caaec13a09))
+
 ## [3.4.16](https://github.com/teutonet/oci-images/compare/masterportal-v3-v3.4.15...masterportal-v3-v3.4.16) (2025-11-13)
 
 
