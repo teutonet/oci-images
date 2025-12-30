@@ -6,7 +6,7 @@ USER root
 # See Dockerfile.dev for more details and examples
 
 # renovate: datasource=github-tags depName=ckan/ckanext-dcat extractVersion=^v(?<version>.*)$
-ARG CKANEXT_DCAT_VERSION=1.7.0
+ARG CKANEXT_DCAT_VERSION=2.4.2
 
 RUN pip3 install -e git+https://github.com/ckan/ckanext-dcat.git@v${CKANEXT_DCAT_VERSION}#egg=ckanext-dcat
 RUN pip install -r ${SRC_DIR}/ckanext-dcat/requirements.txt
