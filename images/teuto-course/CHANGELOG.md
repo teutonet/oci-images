@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.49.2](https://github.com/teutonet/oci-images/compare/teuto-course-v2.49.1...teuto-course-v2.49.2) (2026-01-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** update archlinux:multilib-devel docker digest to 88376c4 ([#335](https://github.com/teutonet/oci-images/issues/335)) ([60960ae](https://github.com/teutonet/oci-images/commit/60960aea223ba2973bfe27265200a58821cdbdbb))
+* **deps:** update archlinux:multilib-devel docker digest to 9f6f04e ([#341](https://github.com/teutonet/oci-images/issues/341)) ([ce0a85c](https://github.com/teutonet/oci-images/commit/ce0a85c115171d0abd0ea1c19c53edd6cbe5de2b))
+* **deps:** update archlinux:multilib-devel docker digest to c529366 ([#343](https://github.com/teutonet/oci-images/issues/343)) ([2962be3](https://github.com/teutonet/oci-images/commit/2962be30b1b7f24a0188f7f36824e5059c78ce34))
+
 ## [2.49.1](https://github.com/teutonet/oci-images/compare/teuto-course-v2.49.0...teuto-course-v2.49.1) (2025-09-18)
 
 
