@@ -41,6 +41,9 @@
     },
     "images/teuto-course": {
       "package-name": "teuto-course"
+    },
+    "images/cnpg": {
+      "package-name": "cnpg"
     }
   }
 }
