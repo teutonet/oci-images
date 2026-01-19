@@ -1,5 +1,12 @@
 # Changelog
 
+## [16.0.2](https://github.com/teutonet/oci-images/compare/ckan-v1.0.16...ckan-v16.0.2) (2026-01-19)
+
+
+### Miscellaneous Chores
+
+* **images/cnpg:** correct release version ([#388](https://github.com/teutonet/oci-images/issues/388)) ([b9c0d00](https://github.com/teutonet/oci-images/commit/b9c0d007c3a3e5adcf4c22c44798cddf92eb7703))
+
 ## [1.0.16](https://github.com/teutonet/oci-images/compare/ckan-v1.0.15...ckan-v1.0.16) (2025-11-04)
 
 
