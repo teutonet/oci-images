@@ -1,5 +1,19 @@
 # Changelog
 
+## [16.0.2](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.15...ckan-dcatapde-v16.0.2) (2026-01-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ckan/ckan-base docker tag to v2.11.3 ([#265](https://github.com/teutonet/oci-images/issues/265)) ([cd16a22](https://github.com/teutonet/oci-images/commit/cd16a22c537fd4f248777d6f137ba5f5c9cb4cc6))
+* **deps:** update ckan/ckan-base docker tag to v2.11.4 ([#348](https://github.com/teutonet/oci-images/issues/348)) ([af07008](https://github.com/teutonet/oci-images/commit/af07008242a2b619bc85bdb8e7ce9de770dee789))
+* **deps:** update dependency ckan/ckanext-harvest to v1.6.1 ([#277](https://github.com/teutonet/oci-images/issues/277)) ([35f22de](https://github.com/teutonet/oci-images/commit/35f22de8d282a5135376c2c7ea67b11266879d23))
+* **deps:** update dependency ckan/ckanext-harvest to v1.6.2 ([#356](https://github.com/teutonet/oci-images/issues/356)) ([ed97236](https://github.com/teutonet/oci-images/commit/ed97236294cc1f7b3c2066abba554ce904b164e8))
+* **deps:** update dependency govdataofficial/ckanext-dcatde to v6.10.0 ([#306](https://github.com/teutonet/oci-images/issues/306)) ([ff85076](https://github.com/teutonet/oci-images/commit/ff85076002ff69161c6c7f6f89257e66d05bd020))
+* **deps:** update dependency govdataofficial/ckanext-dcatde to v6.9.0 ([#279](https://github.com/teutonet/oci-images/issues/279)) ([fd49c82](https://github.com/teutonet/oci-images/commit/fd49c823de20a984c7c5b5a912dbd80d1b3b096d))
+* **images/cnpg:** correct release version ([#388](https://github.com/teutonet/oci-images/issues/388)) ([b9c0d00](https://github.com/teutonet/oci-images/commit/b9c0d007c3a3e5adcf4c22c44798cddf92eb7703))
+* **renovate:** add renovate version update ([#276](https://github.com/teutonet/oci-images/issues/276)) ([bf287ea](https://github.com/teutonet/oci-images/commit/bf287ea8788fa9a2fb36ba2fcae0d18ed938bc63))
+
 ## [1.0.15](https://github.com/teutonet/oci-images/compare/ckan-dcatapde-v1.0.14...ckan-dcatapde-v1.0.15) (2025-04-22)
 
 
