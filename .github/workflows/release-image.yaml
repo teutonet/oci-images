@@ -54,7 +54,7 @@ jobs:
         id: get-image-platform
         run: echo "platform=$(jq -r '."${{ matrix.image }}"' < .github/release-please/platform.json)" >> "$GITHUB_OUTPUT"
       - name: Docker Metadata
-        uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051 # v5.10.0
+        uses: docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf # v6.0.0
         id: meta
         with:
           images: ${{ format('{0}/{1}/{2}', env.REGISTRY ,'teutonet/oci-images', steps.get-image-name.outputs.fragment ) }}
