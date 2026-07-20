@@ -19,15 +19,16 @@ jobs:
           config-file: .github/release-please/config.json
           manifest-file: .github/release-please/manifest.json
         id: release-please
+
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         if: ${{ steps.release-please.outputs.prs_created == 'true' }}
+
       - name: Set PRs to auto-merge
         if: ${{ steps.release-please.outputs.prs_created == 'true' }}
         run: |
-          for pr_number in ${PR_NUMBERS};do
+          for pr_number in $(echo "${PR_NUMBERS}" | jq -r '.[]'); do
             gh pr merge --auto --squash "$pr_number"
           done
         env:
           GH_TOKEN: ${{ secrets.ACTIONS_BOT_TOKEN }}
-          PR_NUMBERS: ${{ github.event.number }}
-          merge-method: squash
+          PR_NUMBERS: ${{ steps.release-please.outputs.pr_numbers }}

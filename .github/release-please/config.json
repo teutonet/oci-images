@@ -33,9 +33,6 @@
     "images/qgis-server": {
       "package-name": "qgis-server"
     },
-    "images/masterportal-v2": {
-      "package-name": "masterportal-v2"
-    },
     "images/masterportal-v3": {
       "package-name": "masterportal-v3"
     },

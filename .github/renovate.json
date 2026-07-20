@@ -5,6 +5,8 @@
   ],
   "addLabels": ["dependencies"],
   "rebaseWhen": "conflicted",
+  "assignees": ["@teutonet/developer"],
+  "reviewers": ["@teutonet/developer"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
