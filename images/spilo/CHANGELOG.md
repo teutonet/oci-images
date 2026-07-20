@@ -1,5 +1,29 @@
 # Changelog
 
+## [15.0.0](https://github.com/teutonet/oci-images/compare/spilo-v16.0.1...spilo-v15.0.0) (2026-07-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **spilo:** update spilo base image ([#70](https://github.com/teutonet/oci-images/issues/70))
+* add spilo image ([#16](https://github.com/teutonet/oci-images/issues/16))
+
+### Features
+
+* add spilo image ([#16](https://github.com/teutonet/oci-images/issues/16)) ([5126a71](https://github.com/teutonet/oci-images/commit/5126a71bb46b93ad408a87074e9fd512637d506d))
+* **spilo:** set version ([#20](https://github.com/teutonet/oci-images/issues/20)) ([28588c8](https://github.com/teutonet/oci-images/commit/28588c8f27543531cc92f50c5d1662c80a9f59b6))
+* **spilo:** update spilo base image ([#70](https://github.com/teutonet/oci-images/issues/70)) ([4873c6b](https://github.com/teutonet/oci-images/commit/4873c6b15b29e4b6cbf9a90926d742d0fd90da90))
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/zalando/spilo-15 docker tag to v3.2 ([9ea96b8](https://github.com/teutonet/oci-images/commit/9ea96b8bf4c98093d988a497ea5a888b02169998))
+* **deps:** update spilo image to 3.3-p3 ([#196](https://github.com/teutonet/oci-images/issues/196)) ([f23e1ac](https://github.com/teutonet/oci-images/commit/f23e1ac58ff179a27b91d817f872871bd36a427c))
+* **main:** [bot] release spilo:15.0.0 ([#17](https://github.com/teutonet/oci-images/issues/17)) ([084ac84](https://github.com/teutonet/oci-images/commit/084ac845c63ebb7e2bcf75e96077886abe7b85b4))
+* **main:** [bot] release spilo:15.0.1 ([#21](https://github.com/teutonet/oci-images/issues/21)) ([b425a1c](https://github.com/teutonet/oci-images/commit/b425a1c1a622487f7f21395f8d793434a006ed9c))
+* **main:** [bot] release spilo:16.0.0 ([#71](https://github.com/teutonet/oci-images/issues/71)) ([f53951b](https://github.com/teutonet/oci-images/commit/f53951bcd74737246e2e3fac811009f1b4a9e2ac))
+* **main:** [bot] release spilo:16.0.1 ([#95](https://github.com/teutonet/oci-images/issues/95)) ([06ffc6b](https://github.com/teutonet/oci-images/commit/06ffc6b6ca9146f0b2fce67af6cd41fafb55ce9d))
+
 ## [16.0.1](https://github.com/teutonet/oci-images/compare/spilo-v16.0.0...spilo-v16.0.1) (2025-01-13)
 
 
