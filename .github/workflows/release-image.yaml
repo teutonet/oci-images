@@ -100,7 +100,7 @@ jobs:
           cache-to: type=gha,scope=${{ steps.get-image-name.outputs.fragment }},mode=max
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@18f2510ee396bbf400402947e695c065b1a2ce14 # v0.28.0
+        uses: aquasecurity/trivy-action@915b19bbe73b92a6cf82a1bc12b087c9a19a5fe2 # v0.28.0
         with:
           image-ref: ${{ format('{0}/{1}/{2}:{3}', env.REGISTRY, 'teutonet/oci-images', steps.get-image-name.outputs.fragment, steps.get-image-version.outputs.version) }}
           format: 'table'
