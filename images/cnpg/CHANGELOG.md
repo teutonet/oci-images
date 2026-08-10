@@ -1,5 +1,12 @@
 # Changelog
 
+## [16.2.1](https://github.com/teutonet/oci-images/compare/cnpg-v16.2.0...cnpg-v16.2.1) (2026-08-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/cloudnative-pg/postgis:16-3.6-system-trixie docker digest to 1001199 ([#457](https://github.com/teutonet/oci-images/issues/457)) ([28e4bbf](https://github.com/teutonet/oci-images/commit/28e4bbf9e1d99ff8723d6113696c12bf72a0cd68))
+
 ## [16.2.0](https://github.com/teutonet/oci-images/compare/cnpg-v16.1.2...cnpg-v16.2.0) (2026-08-06)
 
 
