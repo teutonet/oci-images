@@ -1,7 +1,7 @@
 FROM nginx:1.31.3-alpine@sha256:4a73073bd557c65b759505da037898b61f1be6cbcc3c2c3aeac22d2a470c1752
 
 # renovate: datasource=bitbucket-tags depName=geowerkstatt-hamburg/masterportal extractVersion=^v(?<version>3.*)$
-ENV MASTERPORTAL_VERSION=3.24.0
+ENV MASTERPORTAL_VERSION=3.25.0
 
 # download and restructure Masterportal
 RUN curl -fsLw "status %{http_code}, size: %{size_download}" \
