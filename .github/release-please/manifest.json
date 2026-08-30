@@ -6,6 +6,6 @@
   "images/qgis-server": "3.22.21",
   "images/masterportal-v3": "3.4.20",
   "images/teuto-course": "2.49.1",
-  "images/cnpg": "16.2.1",
+  "images/cnpg": "16.3.0",
   "images/actions-runner": "1.1.0"
 }
