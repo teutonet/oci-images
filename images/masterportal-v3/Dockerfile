@@ -1,4 +1,4 @@
-FROM nginx:1.31.3-alpine@sha256:4a73073bd557c65b759505da037898b61f1be6cbcc3c2c3aeac22d2a470c1752
+FROM nginx:1.31.6-alpine@sha256:d10753d9289b8e3f884386351f73554ce72b631378949deddd75e83ee296c427
 
 # renovate: datasource=bitbucket-tags depName=geowerkstatt-hamburg/masterportal extractVersion=^v(?<version>3.*)$
 ENV MASTERPORTAL_VERSION=3.25.1
