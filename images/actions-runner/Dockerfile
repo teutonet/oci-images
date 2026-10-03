@@ -30,7 +30,7 @@ RUN yay -S --noconfirm \
     unzip
 
 # renovate: datasource=github-releases depName=actions/runner extractVersion=^v(?<version>.*)$
-ARG RUNNER_VERSION=2.335.1
+ARG RUNNER_VERSION=2.337.0
 RUN curl -fL -o runner.tar.gz "https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-linux-x64-${RUNNER_VERSION}.tar.gz" && \
     tar xzf runner.tar.gz && \
     rm runner.tar.gz
