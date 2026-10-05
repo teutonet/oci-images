@@ -27,7 +27,15 @@ RUN yay -S --noconfirm \
     helm-unittest-bin \
     pluto-bin \
     kubescape-bin \
-    unzip
+    unzip \
+    syft \
+    trivy \
+    grype-bin \
+    cocogitto \
+    helm-docs \
+    json-schema-for-humans \
+    actionlint \
+    github-cli
 
 # renovate: datasource=github-releases depName=actions/runner extractVersion=^v(?<version>.*)$
 ARG RUNNER_VERSION=2.335.1
