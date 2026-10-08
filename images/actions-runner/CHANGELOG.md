@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/teutonet/oci-images/compare/actions-runner-v1.2.0...actions-runner-v1.2.1) (2026-10-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency actions/runner to v2.338.0 ([#451](https://github.com/teutonet/oci-images/issues/451)) ([5e15650](https://github.com/teutonet/oci-images/commit/5e1565024433185d3ddf00e23e77f127cda5e843))
+
 ## [1.2.0](https://github.com/teutonet/oci-images/compare/actions-runner-v1.1.0...actions-runner-v1.2.0) (2026-10-08)
 
 
