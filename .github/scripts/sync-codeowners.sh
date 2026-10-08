@@ -5,4 +5,5 @@
 
 echo "* @teutonet/developer"
 echo "/images/actions-runner/ @teutonet/k8s"
+echo "/images/teuto-course/ @teutonet/k8s"
 
