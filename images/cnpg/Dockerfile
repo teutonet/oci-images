@@ -1,4 +1,4 @@
-FROM ghcr.io/cloudnative-pg/postgis:16-3.6-system-trixie@sha256:c735b42f520c00aa42defcedf0d693c1c661cd5a76075659809f339b76734478 AS base
+FROM ghcr.io/cloudnative-pg/postgis:18-3.6-system-trixie@sha256:62fcf4a3d8b0bec5714cfa0441892b4e424b365131505f2dc6926acb71d99eaa AS base
 
 ARG PG_MAJOR=16
 
