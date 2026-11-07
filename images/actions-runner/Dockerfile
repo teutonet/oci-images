@@ -1,4 +1,4 @@
-FROM archlinux:multilib-devel@sha256:34b823cbb22bedbe2f9d16e5b0c1c02a1c927ccab98b69a82aa49313b8f7d2d2
+FROM archlinux:multilib-devel@sha256:732829e182d0cb7ef3d799827e799ff3bdd2d27fee557770bbd611a211439cf6
 
 RUN pacman -Syyu --noconfirm && \
     pacman-db-upgrade && \
