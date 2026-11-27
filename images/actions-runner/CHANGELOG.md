@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/teutonet/oci-images/compare/actions-runner-v1.2.3...actions-runner-v1.2.4) (2026-11-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update archlinux:multilib-devel docker digest to 3d8a373 ([#481](https://github.com/teutonet/oci-images/issues/481)) ([127216b](https://github.com/teutonet/oci-images/commit/127216b3f2a3a2351d0d93dbdb76b0f8ce4ec9ba))
+
 ## [1.2.3](https://github.com/teutonet/oci-images/compare/actions-runner-v1.2.2...actions-runner-v1.2.3) (2026-10-21)
 
 
